@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		32DDB5CB1CD64D11008708F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DDB5CA1CD64D11008708F8 /* AppDelegate.swift */; };
 		32DDB5CD1CD64D11008708F8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DDB5CC1CD64D11008708F8 /* GameScene.swift */; };
-		32DDB5CF1CD64D11008708F8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 32DDB5CE1CD64D11008708F8 /* GameScene.sks */; };
 		32DDB5D11CD64D11008708F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DDB5D01CD64D11008708F8 /* Assets.xcassets */; };
 		32DDB5D41CD64D11008708F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32DDB5D21CD64D11008708F8 /* MainMenu.xib */; };
 		32DDB5DF1CD64D11008708F8 /* MatchSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DDB5DE1CD64D11008708F8 /* MatchSpriteKitTests.swift */; };
@@ -29,7 +28,6 @@
 		32DDB5C71CD64D11008708F8 /* MatchSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DDB5CA1CD64D11008708F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32DDB5CC1CD64D11008708F8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		32DDB5CE1CD64D11008708F8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		32DDB5D01CD64D11008708F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32DDB5D31CD64D11008708F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		32DDB5D51CD64D11008708F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			children = (
 				32DDB5CA1CD64D11008708F8 /* AppDelegate.swift */,
 				32DDB5CC1CD64D11008708F8 /* GameScene.swift */,
-				32DDB5CE1CD64D11008708F8 /* GameScene.sks */,
 				32DDB5D01CD64D11008708F8 /* Assets.xcassets */,
 				32DDB5D21CD64D11008708F8 /* MainMenu.xib */,
 				32DDB5D51CD64D11008708F8 /* Info.plist */,
@@ -178,7 +175,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				32DDB5D11CD64D11008708F8 /* Assets.xcassets in Resources */,
-				32DDB5CF1CD64D11008708F8 /* GameScene.sks in Resources */,
 				32DDB5D41CD64D11008708F8 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +380,7 @@
 				32DDB5E51CD64D11008708F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32DDB5E61CD64D11008708F8 /* Build configuration list for PBXNativeTarget "MatchSpriteKitTests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +389,7 @@
 				32DDB5E81CD64D11008708F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
